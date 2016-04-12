@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc.Configuration
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<SimpleAbstractIoC.Web.ViewModels.Security.LoginViewModel>
+
+@using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post))
+{
+    @Html.Sitecore().FormHandler("Login", "Login")
+
+    <fieldset class="form-group">
+        <label for="email">Email address</label>
+        @*<input type="email" class="form-control" id="email" placeholder="Enter email">*@
+        @Html.EditorFor(i => i.Email)
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="password">Password</label>
+        @*<input type="password" class="form-control" id="password" placeholder="Password">*@
+        @Html.PasswordFor(i => i.Password)
+    </fieldset>
+    <input type="submit" class="btn btn-primary" value="Submit" />
+}

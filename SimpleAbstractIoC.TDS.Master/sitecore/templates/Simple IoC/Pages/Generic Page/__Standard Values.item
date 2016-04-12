@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {FA484B43-59BE-48A1-8628-D83B56601FAB}
+database: master
+path: /sitecore/templates/Simple IoC/Pages/Generic Page/__Standard Values
+parent: {0407E365-6A97-4871-BBFE-E2E7680C540A}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0407E365-6A97-4871-BBFE-E2E7680C540A}
+templatekey: Generic Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 446
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{798A4FAA-C5B4-4BC9-948B-73D5CDBE259D}">
+    <r id="{6216C2E3-9237-4465-A473-6547772CE59C}" ph="Main" uid="{1567067E-428E-42B8-BD04-0FE3F98176C7}" />
+    <r id="{A322C317-0443-4C46-97B1-AF0FD676772E}" ph="Main" uid="{58BFB7E6-E80D-4F55-90F2-05A08897A4BD}" />
+    <r id="{977150A9-BBD5-4400-989B-D23978D6484C}" ph="Container" uid="{B362C3E4-8B2B-42FA-8B31-84478B9011F8}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 9c41ca01-6f89-447f-bd4d-42816fb9e12e
+
+----field----
+field: {AA160F5F-2B26-4449-A1BD-4C39C441A9CB}
+name: Page Title
+key: page title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160407T184133Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c41ca01-6f89-447f-bd4d-42816fb9e12e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160407T192558Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

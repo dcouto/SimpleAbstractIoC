@@ -1,0 +1,61 @@
+----item----
+version: 1
+id: {C358DA91-B563-46E5-8D35-AE7E1F280065}
+database: master
+path: /sitecore/content/Simple IoC/Home
+parent: {04AFAD4A-1062-437B-AD7B-5F49083AC3A1}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {8379EDDE-AF5C-4E15-9243-265A1A91D360}
+templatekey: Home Page
+
+----version----
+language: en
+version: 1
+revision: cd9f52ca-f923-4131-bc39-2cbd60c4fcce
+
+----field----
+field: {AA160F5F-2B26-4449-A1BD-4C39C441A9CB}
+name: Page Title
+key: page title
+content-length: 17
+
+Welcome, visitor!
+----field----
+field: {E9275902-9F46-4AAD-ABDC-65EDC29859F0}
+name: Page Content
+key: page content
+content-length: 299
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+    <p>
+        <a class="btn btn-primary btn-large">Call to action!</a>
+    </p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160407T182816Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd9f52ca-f923-4131-bc39-2cbd60c4fcce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160407T192435Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

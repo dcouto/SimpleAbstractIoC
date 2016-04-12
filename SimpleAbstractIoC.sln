@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAbstractIoC.Web", "SimpleAbstractIoC.Web\SimpleAbstractIoC.Web.csproj", "{312B8539-0998-4F1C-B65C-33E3D2A26BDA}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SimpleAbstractIoC.TDS.Master", "SimpleAbstractIoC.TDS.Master\SimpleAbstractIoC.TDS.Master.scproj", "{0C217120-6C26-4940-AEDD-D49332E02A66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{C379827C-746B-43DB-BDBC-665E68C16717}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{312B8539-0998-4F1C-B65C-33E3D2A26BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312B8539-0998-4F1C-B65C-33E3D2A26BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312B8539-0998-4F1C-B65C-33E3D2A26BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312B8539-0998-4F1C-B65C-33E3D2A26BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C217120-6C26-4940-AEDD-D49332E02A66}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

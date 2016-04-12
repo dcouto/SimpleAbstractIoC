@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {493EC67C-B162-4703-AC8F-8A40E43C19C1}
+database: master
+path: /sitecore/templates/Simple IoC/Pages/Login Page/__Standard Values
+parent: {B32BE52C-2671-4896-AE29-739D5229FF09}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B32BE52C-2671-4896-AE29-739D5229FF09}
+templatekey: Login Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 573
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{798A4FAA-C5B4-4BC9-948B-73D5CDBE259D}"><r id="{6216C2E3-9237-4465-A473-6547772CE59C}" ph="Main" uid="{1567067E-428E-42B8-BD04-0FE3F98176C7}" /><r id="{A322C317-0443-4C46-97B1-AF0FD676772E}" ph="Main" uid="{58BFB7E6-E80D-4F55-90F2-05A08897A4BD}" /><r id="{977150A9-BBD5-4400-989B-D23978D6484C}" ph="Container" uid="{B362C3E4-8B2B-42FA-8B31-84478B9011F8}" /><r id="{A4F623D1-ABEB-4324-ACC6-AE56CDBE4766}" ph="Container" uid="{1B192A5D-F99D-49F6-B388-DE6B46A047EC}" /></d></r>
+----version----
+language: en
+version: 1
+revision: cbb94d3b-7760-4563-bf61-0d5dd66fd1bb
+
+----field----
+field: {2596B8F5-5C03-49AF-BCAC-5D8DC5095D21}
+name: Email Field Label
+key: email field label
+content-length: 5
+
+Email
+----field----
+field: {ACDDC113-63D7-4538-A7AF-39942007022F}
+name: Password Field Label
+key: password field label
+content-length: 8
+
+Password
+----field----
+field: {1A0ED4AA-EC2E-4A0D-B623-474D82A7FBE1}
+name: Login Button Label
+key: login button label
+content-length: 5
+
+Login
+----field----
+field: {2E42DFF7-6E49-4BFE-B003-006F1CC5E70E}
+name: Generic Error Message
+key: generic error message
+content-length: 37
+
+An error occurred.  Please try again.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160407T184629Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cbb94d3b-7760-4563-bf61-0d5dd66fd1bb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160407T194128Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
